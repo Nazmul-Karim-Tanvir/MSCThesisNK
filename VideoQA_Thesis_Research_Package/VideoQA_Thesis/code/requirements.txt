@@ -1,0 +1,11 @@
+# Install a driver-compatible torch/torchvision build FIRST using pytorch.org.
+# Conservative Transformers 4.x API target; resolve and lock your tested environment.
+transformers>=4.46,<5
+numpy>=1.26,<3
+opencv-python>=4.9
+Pillow>=10
+scikit-learn>=1.4
+tqdm>=4.66
+jupyterlab>=4
+ipykernel>=6
+sentencepiece>=0.2
